@@ -1,0 +1,1 @@
+from .navie_bayes import NavieBayes
