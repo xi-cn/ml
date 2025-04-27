@@ -8,6 +8,7 @@ import pandas as pd
 
 from knn import KnnClassfier, KnnRegressor
 from bayes import NavieBayes, GaussianBayes
+from tree import DecisionTree
 
 # 归一化
 def normalize(X:np.ndarray):
@@ -69,7 +70,6 @@ def regression_method(MODEL):
 
 if __name__ == "__main__":
 
-    discrete_classfication(NavieBayes)
-    classfication_method(GaussianBayes)
+    discrete_classfication(DecisionTree)
 
     pass
